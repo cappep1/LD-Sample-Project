@@ -1,4 +1,4 @@
-Instructions for seting up weight demo with LaunchDarkly using Python and Pycharm editor.
+Instructions for seting up weight demo with LaunchDarkly using Python and Pycharm IDE.
 
 Note: You can choose to use the command line or a Python editor such as Python, the steps will be very close.
 
