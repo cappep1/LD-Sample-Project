@@ -16,7 +16,7 @@ I implemented my demo with two LaunchDarkly feature flags. One flag, "my-test", 
 2- In LaunchDarkly go to Feature flags:
 	1- Create a feature flag called "my-test" set to be true when turned on, targeting is off and serving false, and Fallback variation is Serving false
 	
-	2 - Create a feature flag called "bmi_feature" set  to be true on, targeting set to User: "Paul", True and Default rule serves false
+	2 - Create a feature flag called "bmi_feature" set  to be true on, targeting set to User: "Paul", key "demo-user-1", True and Default rule serves false
 	
 3- Set Up wieght.py to used your SDK key.
 		To set you sdk_key in weight.py: Uncomment line 15, # my_sdk_key = "your key here", and replace the text "your key here" with your Launchdarly SDK key in quotes. Your key will be of the format "sdk-########-####-####-####-############" 
